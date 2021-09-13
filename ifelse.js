@@ -159,3 +159,11 @@ console.log(anio)
 !a && !b
 !a || !b
 */
+/*
+Pablo --> 14, 8, 16 
+Maria --> 12, 18, 10
+Promedio de cada alumno?
+Quien tiene mayor promedio?
+Esta aprobado? Debe ser mayor a 13
+*/
+

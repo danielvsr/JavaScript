@@ -55,11 +55,23 @@ while(i<=x){
 validar que el número ingresado no contenga letras.
 */
 let num1=prompt("Ingrese su numero: ")
-
+let i=0
+let newNum1 = 0
+let newNum2 = 0
+let valoresAceptados = 0
+do{
+    if (num1.match(valoresAceptados)){
+        let valoresAceptados = /^[0-9]+$/    
+    } else {
+        console.log("No es numerico")
+    }
     let newNum1=(num1.charAt(0))
     let newNum2=(num1.charAt(1))
-    let resultado=Number(newNum1 + newNum2) 
+    let resultado= newNum1 + newNum2
+    i++
+} while(i < 1){
 
+}
 console.log(resultado)
 /*
 Realizar la suma de todos los números pares entre N y M donde N y M los ingresa un usuario.
